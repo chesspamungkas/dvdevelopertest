@@ -3,11 +3,12 @@ import { AuthService } from "../../shared/services/auth.service";
 import { Router } from "@angular/router";
 
 @Component({
-  selector: 'app-dashboard',
-  templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.css']
+  selector: 'app-profile',
+  templateUrl: './profile.component.html',
+  styleUrls: ['./profile.component.css']
 })
-export class DashboardComponent implements OnInit {
+export class ProfileComponent implements OnInit {
+
   constructor(
     public authService: AuthService,
     public router: Router,
